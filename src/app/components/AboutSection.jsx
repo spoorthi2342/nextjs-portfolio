@@ -9,12 +9,20 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Canva</li>
+        <li>Adobe Xpress
+        </li>
+        <li>Adobe Firefly</li>
+        <li>Illustrator</li>
+        <li>Corel Draw
+        </li>
+        <li>InDesign</li>
+        <li>QuarkXPress</li>
+        <li>Freehand-10
+        </li>
+        <li>Adobe In-design</li>
+        <li>Flash</li>
+        <li>Photoshop</li>
       </ul>
     ),
   },
@@ -23,18 +31,44 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        
+        <li>Bachelor of Fine Arts from Chitra Kala Mandir (CKM), Kala Shale, College of fine Arts in 2006</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
+    title: "Awards",
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>	“Chakrapani kalaprashasti-06” painting Contest Awards at Mangalore.</li>
+        <li> “Agnipath all india art compitition-06” Gold medal Awards at new Delhi</li>
+        <li> Awarded for state level post card art competition” Shanthivana trust, Dharmasthala </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Exhibitions",
+    id: "Exhibitions",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>	AIFACS[All India Fine Arts& Craft Society] New Delhi</li>
+        <li> South Zone Art Contest at Nagpur</li>
+        <li> Karnataka K.L.A. Bangalore </li>
+        <li>10th National Art Festival, by Kalavarthnyas Ujjain
+        </li>
+        <li>
+        “AGNIPATH” all India Art Exhibition Mumbai.
+
+        </li>
+        <li>
+        Tumkur 69th AkhilaBharatha Kannada SahithyaSammelana
+        </li>
+        <li>Vibhuti Art Gallery,Udupi
+        </li>
+        <li>
+        Shashivarna Art Exhibution 
+        </li>
       </ul>
     ),
   },
@@ -57,12 +91,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I'm Santhosh Achary, a Visual Merchandiser and Senior Graphic Designer with over 17 years of experience in the field. I specialize in graphic designing, visual merchandising, retail design, and marketing. I've worked with leading organizations like Reliance Retail Ltd. and Manipal Advertising Services, where I handled everything from creating impactful promotional campaigns to designing retail concepts and store setups. I'm skilled in tools like Adobe Suite, Corel Draw, and Photoshop, which I use to develop creative and effective materials. I take pride in blending creativity with strategic planning, whether it's designing marketing campaigns, creating unique store visuals, or managing branding initiatives. It's all about delivering results that make an impact.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
