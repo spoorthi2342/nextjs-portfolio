@@ -83,13 +83,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m Santhosh Achary, a Visual Merchandiser and Senior Graphic Designer with over 17 years of experience in the field. 
-            I specialize in graphic designing, visual merchandising, retail design, and marketing. 
-            I&apos;ve worked with leading organizations like Reliance Retail Ltd. and Manipal Advertising Services, where I handled everything 
-            from creating impactful promotional campaigns to designing retail concepts and store setups. 
-            I&apos;m skilled in tools like Adobe Suite, Corel Draw, and Photoshop, which I use to develop creative and effective materials. 
-            I take pride in blending creativity with strategic planning, whether it&apos;s designing marketing campaigns, creating unique store visuals, 
-            or managing branding initiatives. It&apos;s all about delivering results that make an impact.
+            Creative Design & Visual Merchandising Leader with 19+ years of experience driving brand communication, retail marketing, omnichannel campaigns, customer experience, visual storytelling and retail branding across footwear, fashion and apparel. Led creative and VM execution across 370+ stores nationwide for Reliance Retail brands. Expert in ATL/BTL campaigns, retail design, digital creatives, stakeholder management, vendor coordination, AI-assisted design workflows and large-scale campaign rollouts.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -109,6 +103,12 @@ const AboutSection = () => {
               active={tab === "certifications"}
             >
               Certifications
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("exhibitions")}
+              active={tab === "exhibitions"}
+            >
+              Exhibitions
             </TabButton>
           </div>
           <div className="mt-8">
