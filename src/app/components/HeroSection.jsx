@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          a seasoned Visual Merchandiser and Senior Graphic Designer with over 19+ years of experience creating impactful campaigns, designing retail concepts, and blending creativity with strategy to deliver exceptional results.
+          Creative Design & Visual Merchandising Leader with 19+ years of experience driving brand communication, retail marketing, omnichannel campaigns, customer experience, visual storytelling and retail branding across footwear, fashion and apparel. Led creative and VM execution across 370+ stores nationwide for Reliance Retail brands. Expert in ATL/BTL campaigns, retail design, digital creatives, stakeholder management, vendor coordination, AI-assisted design workflows and large-scale campaign rollouts.
           </p>
           <div>
             <Link
@@ -47,7 +47,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1Ip_P_QSddN11oEvtQnKVXL5Y2NYwYN_B/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uVZtsXzwxcvCaSLA2ovs2nGkXH_w7nAi/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
